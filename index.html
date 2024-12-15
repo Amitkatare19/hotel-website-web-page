@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Haven Hotel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-theme">
+    <div class="cursor"></div>
+    <header>
+        <nav class="container">
+            <div class="logo">Luxury Haven</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#amenities">Amenities</a></li>
+                <li><a href="#restaurant">Restaurant</a></li>
+                <li><a href="#spa">Spa</a></li>
+                <li><a href="#booking">Book Now</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle dark mode">🌓</button>
+        </nav>
+    </header>
+
+    <main data-scroll-container>
+        <section id="hero" data-scroll-section>
+            <div class="hero-content">
+                <h1>Welcome to Luxury Haven</h1>
+                <p>Experience unparalleled comfort and elegance</p>
+                <a href="#booking" class="btn">Book Now</a>
+            </div>
+            <div class="hero-images">
+                <img src="https://plus.unsplash.com/premium_photo-1661964071015-d97428970584?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Luxury Hotel 1" class="hero-image">
+                <img src="https://plus.unsplash.com/premium_photo-1661929519129-7a76946c1d38?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Luxury Hotel 2" class="hero-image">
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Luxury Hotel 3" class="hero-image">
+            </div>
+        </section>
+
+        <section id="about" data-scroll-section>
+            <div class="container">
+                <h2>About Us</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Luxury Haven is a premier hotel destination, offering world-class amenities and unparalleled service. Our commitment to excellence ensures that every guest experiences the epitome of luxury and comfort during their stay.</p>
+                        <p>With stunning views, exquisite dining options, and a range of leisure activities, Luxury Haven is the perfect choice for both business and leisure travelers seeking a truly memorable experience.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://plus.unsplash.com/premium_photo-1661962992065-ce02d11c1d28?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Luxury Haven Lobby">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="rooms" data-scroll-section>
+            <div class="container">
+                <h2>Our Rooms</h2>
+                <div class="room-grid">
+                    <div class="room-card">
+                        <div class="room-image" style="background-image: url('https://plus.unsplash.com/premium_photo-1663126637580-ff22a73f9bfc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"></div>
+                        <div class="room-info">
+                            <h3>Deluxe Room</h3>
+                            <p>Spacious and comfortable, perfect for couples or solo travelers.</p>
+                            <p>From $200/night</p>
+                            <a href="#booking" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="room-card">
+                        <div class="room-image" style="background-image: url('https://plus.unsplash.com/premium_photo-1661964178554-cb583b357dd7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"></div>
+                        <div class="room-info">
+                            <h3>Executive Suite</h3>
+                            <p>Luxurious suite with separate living area and stunning views.</p>
+                            <p>From $350/night</p>
+                            <a href="#booking" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="room-card">
+                        <div class="room-image" style="background-image: url('https://images.unsplash.com/photo-1559414059-34fe0a59e57a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"></div>
+                        <div class="room-info">
+                            <h3>Penthouse</h3>
+                            <p>The ultimate luxury experience with panoramic city views.</p>
+                            <p>From $500/night</p>
+                            <a href="#booking" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="amenities" data-scroll-section>
+            <div class="container">
+                <h2>Amenities</h2>
+                <div class="amenities-grid">
+                    <div class="amenity-item">
+                        <div class="amenity-icon">🏊‍♂️</div>
+                        <h3>Swimming Pool</h3>
+                    </div>
+                    <div class="amenity-item">
+                        <div class="amenity-icon">🏋️‍♀️</div>
+                        <h3>Fitness Center</h3>
+                    </div>
+                    <div class="amenity-item">
+                        <div class="amenity-icon">🧖‍♀️</div>
+                        <h3>Spa</h3>
+                    </div>
+                    <div class="amenity-item">
+                        <div class="amenity-icon">🍽️</div>
+                        <h3>Fine Dining</h3>
+                    </div>
+                    <div class="amenity-item">
+                        <div class="amenity-icon">🅿️</div>
+                        <h3>Free Parking</h3>
+                    </div>
+                    <div class="amenity-item">
+                        <div class="amenity-icon">📶</div>
+                        <h3>High-Speed Wi-Fi</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="restaurant" data-scroll-section>
+            <div class="container">
+                <h2>Our Restaurant</h2>
+                <div class="restaurant-content">
+                    <div class="restaurant-text">
+                        <p>Indulge in a culinary journey at our award-winning restaurant. Our expert chefs create exquisite dishes using the finest local and international ingredients, offering a dining experience that will tantalize your taste buds.</p>
+                        <p>From intimate dinners to special celebrations, our restaurant provides the perfect setting for any occasion.</p>
+                        <a href="#" class="btn">View Menu</a>
+                    </div>
+                    <div class="restaurant-image">
+                        <img src="https://images.unsplash.com/photo-1508424757105-b6d5ad9329d0?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Luxury Haven Restaurant">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="spa" data-scroll-section>
+            <div class="container">
+                <h2>Luxury Spa</h2>
+                <div class="spa-content">
+                    <div class="spa-image">
+                        <img src="https://plus.unsplash.com/premium_photo-1723507336136-01e23e56ff47?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Luxury Haven Spa">
+                    </div>
+                    <div class="spa-text">
+                        <p>Immerse yourself in a world of relaxation and rejuvenation at our luxury spa. Our expert therapists offer a wide range of treatments designed to soothe your body and mind.</p>
+                        <p>From traditional massages to cutting-edge beauty treatments, our spa provides the perfect escape from the stresses of everyday life.</p>
+                        <a href="#" class="btn">Book a Treatment</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="booking" data-scroll-section>
+            <div class="container">
+                <h2>Book Your Stay</h2>
+                <form class="booking-form">
+                    <div class="form-group">
+                        <label for="check-in">Check-in Date</label>
+                        <input type="date" id="check-in" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="check-out">Check-out Date</label>
+                        <input type="date" id="check-out" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Number of Guests</label>
+                        <select id="guests" required>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="room-type">Room Type</label>
+                        <select id="room-type" required>
+                            <option value="deluxe">Deluxe Room</option>
+                            <option value="executive">Executive Suite</option>
+                            <option value="penthouse">Penthouse</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn">Check Availability</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="gallery" data-scroll-section>
+            <div class="container">
+                <h2>Photo Gallery</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1607320895054-c5c543e9a069?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hotel Exterior">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1667125095636-dce94dcbdd96?q=80&w=2052&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hotel Room">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1531003300514-1976481c521e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hotel Pool">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://plus.unsplash.com/premium_photo-1683133769462-a5042c8fb1bb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hotel Spa">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1729601222018-126df30671f3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hotel Restaurant">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://plus.unsplash.com/premium_photo-1670984940156-c7f833fe8397?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hotel Bar">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" data-scroll-section>
+            <div class="container">
+                <h2>Guest Testimonials</h2>
+                <div class="testimonial-slider">
+                    <div class="testimonial-item">
+                        <p class="testimonial-text">"An absolutely amazing experience! The staff was incredibly attentive, and the amenities were top-notch. I can't wait to come back!"</p>
+                        <p class="testimonial-author">- Sarah J.</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <p class="testimonial-text">"The perfect getaway for our anniversary. The room was beautiful, and the restaurant exceeded our expectations. Highly recommended!"</p>
+                        <p class="testimonial-author">- Michael and Lisa R.</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <p class="testimonial-text">"As a frequent business traveler, I've stayed in many hotels, but Luxury Haven stands out. The attention to detail and comfort is unparalleled."</p>
+                        <p class="testimonial-author">- David T.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" data-scroll-section>
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer data-scroll-section>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Luxury Haven</h3>
+                    <p>Experience unparalleled luxury and comfort at our world-class hotel.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#rooms">Rooms</a></li>
+                        <li><a href="#amenities">Amenities</a></li>
+                        <li><a href="#restaurant">Restaurant</a></li>
+                        <li><a href="#spa">Spa</a></li>
+                        <li><a href="#booking">Book Now</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>Gwaltoli , Narmadapurm</p>
+                    <p>Phone: +1 234 567 890</p>
+                    <p>Email: info@luxuryhaven.com</p>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook">📘</a>
+                <a href="#" aria-label="Twitter">🐦</a>
+                <a href="#" aria-label="Instagram">📷</a>
+                <a href="#" aria-label="LinkedIn">💼</a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Luxury Haven. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
+</body</html>
+
+
+
